@@ -1,0 +1,21 @@
+{
+  "name": "rest-api-security-prompts",
+  "version": "1.0.0",
+  "description": "AI prompts for REST API security reviews",
+  "main": "index.js",
+  "files": [
+    "prompts/*.md",
+    "index.js"
+  ],
+  "keywords": [
+    "security",
+    "rest-api",
+    "prompts",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
