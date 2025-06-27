@@ -1,6 +1,6 @@
 {
   "name": "testing-prompts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "GitHub Copilot prompts for generating test cases for functional feature and REST APIs",
   "main": "index.js",
   "files": [
