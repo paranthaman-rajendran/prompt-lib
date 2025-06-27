@@ -4,7 +4,7 @@
   "description": "AI prompts for REST API security reviews",
   "main": "index.js",
   "files": [
-    "prompts/development/coding*.md",
+    "prompts/development/coding/*.md",
     "index.js"
   ],
   "keywords": [
