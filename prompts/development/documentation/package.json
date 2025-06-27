@@ -1,6 +1,6 @@
 {
   "name": "documentaiton-prompts",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "GitHub Copilot prompts for documentaiton for application and APIs",
   "main": "index.js",
   "files": [
