@@ -1,6 +1,6 @@
 {
   "name": "@prompt-library/development-prompts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "AI prompts for REST API security reviews",
   "main": "index.js",
   "files": [

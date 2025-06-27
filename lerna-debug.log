@@ -1,6 +1,6 @@
 56 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
 56 error npm error Cannot read properties of null (reading 'edgesOut')
-56 error npm error A complete log of this run can be found in: C:\Users\paran\AppData\Local\npm-cache\_logs\2025-06-27T05_07_03_818Z-debug-0.log
+56 error npm error A complete log of this run can be found in: C:\Users\paran\AppData\Local\npm-cache\_logs\2025-06-27T05_07_55_010Z-debug-0.log
 56 error     at makeError (E:\developer\nodejs\pompt-library-27-06\prompt-lib\node_modules\execa\lib\error.js:59:11)
 56 error     at handlePromise (E:\developer\nodejs\pompt-library-27-06\prompt-lib\node_modules\execa\index.js:114:26)
 56 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)

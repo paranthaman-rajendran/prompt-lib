@@ -1,6 +1,6 @@
 {
   "name": "@prompt-library/debugging-prompts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "GitHub Copilot prompts for generating test cases for functional feature and REST APIs",
   "main": "index.js",
   "files": [
