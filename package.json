@@ -24,7 +24,9 @@
     "prompts/development/documentation",
     "prompts/development/testing"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "testing-prompts": "^0.0.3"
+  },
   "devDependencies": {
     "lerna": "^8.2.2"
   }

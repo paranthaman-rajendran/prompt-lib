@@ -4,7 +4,7 @@
   "description": "GitHub Copilot prompts for generating test cases for functional feature and REST APIs",
   "main": "index.js",
   "files": [
-    "prompts/development/testing/*.md"
+    "*.md"
   ],
   "keywords": [
     "testing prompts",
