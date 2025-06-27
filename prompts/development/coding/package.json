@@ -1,5 +1,5 @@
 {
-  "name": "development-prompts",
+  "name": "@prompt-library/development-prompts",
   "version": "0.0.4",
   "description": "AI prompts for REST API security reviews",
   "main": "index.js",

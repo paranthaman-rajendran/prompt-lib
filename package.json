@@ -1,5 +1,5 @@
 {
-  "name": "rest-api-security-prompts",
+  "name": "@prompt-library/rest-api-security-prompts",
   "version": "1.0.2",
   "description": "AI prompts for REST API security reviews",
   "main": "index.js",
