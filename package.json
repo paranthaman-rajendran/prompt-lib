@@ -1,6 +1,6 @@
 {
   "name": "rest-api-security-prompts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI prompts for REST API security reviews",
   "main": "index.js",
   "files": [
@@ -17,5 +17,15 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "prompts/development/coding",
+    "prompts/development/debugging",
+    "prompts/development/documentation",
+    "prompts/development/testing"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.2.2"
   }
 }
