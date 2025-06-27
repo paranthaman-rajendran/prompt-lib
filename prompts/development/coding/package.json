@@ -1,6 +1,6 @@
 {
   "name": "development-prompts",
-  "version": "1.0.2",
+  "version": "0.0.2",
   "description": "AI prompts for REST API security reviews",
   "main": "index.js",
   "files": [
