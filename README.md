@@ -45,3 +45,13 @@ const { securityReviewPrompt } = require("rest-api-security-prompts");
 ## Available Prompts
 
 - `securityReviewPrompt` - Comprehensive REST API security review checklist
+
+# publish sub modules
+
+```
+    git status
+    git add .
+    git commit -m "Committing changes before running Lerna"
+    git push origin main
+    npx lerna publish
+```
