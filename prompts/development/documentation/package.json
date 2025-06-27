@@ -1,0 +1,22 @@
+{
+  "name": "documentaiton-prompts",
+  "version": "1.0.0",
+  "description": "GitHub Copilot prompts for documentaiton for application and APIs",
+  "main": "index.js",
+  "files": [
+    "prompts//development/documentaiton/*.md"
+  ],
+  "keywords": [
+    "API documentation prompts",
+    "API specification prompts",
+    "User documentation prompts",
+    "prompts",
+    "reusable prompts",
+    "documentaiton"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

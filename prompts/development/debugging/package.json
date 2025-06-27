@@ -1,0 +1,22 @@
+{
+  "name": "debugging-prompts",
+  "version": "1.0.0",
+  "description": "GitHub Copilot prompts for generating test cases for functional feature and REST APIs",
+  "main": "index.js",
+  "files": [
+    "prompts/development/debugging/*.md"
+  ],
+  "keywords": [
+    "issue debugging prompts",
+    "GitHub Copilot Prompts for debugging",
+    "Issue triage prompts",
+    "prompts",
+    "reusable prompts",
+    "debugging"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

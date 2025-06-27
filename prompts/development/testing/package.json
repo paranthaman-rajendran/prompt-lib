@@ -1,0 +1,24 @@
+{
+  "name": "testing-prompts",
+  "version": "1.0.0",
+  "description": "GitHub Copilot prompts for generating test cases for functional feature and REST APIs",
+  "main": "index.js",
+  "files": [
+    "prompts//development/testing/*.md"
+  ],
+  "keywords": [
+    "testing prompts",
+    "GitHub Copilot Prompts for test cases generation for functional feature and REST APIs",
+    "prompts",
+    "reusable prompts",
+    "test cases",
+    "functional feature",
+    "REST APIs",
+    "GitHub Copilot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

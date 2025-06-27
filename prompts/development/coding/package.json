@@ -1,0 +1,27 @@
+{
+  "name": "development-prompts",
+  "version": "1.0.0",
+  "description": "AI prompts for REST API security reviews",
+  "main": "index.js",
+  "files": [
+    "prompts/development/coding*.md",
+    "index.js"
+  ],
+  "keywords": [
+    "GitHub Copilot Prompts for Spring Boot services code generation",
+    "reusable prompts",
+    "prompts",
+    "code generation",
+    "Spring Boot",
+    "Java",
+    "REST APIs",
+    "AI prompts", 
+    "Code reviews",
+    "unit test generation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
