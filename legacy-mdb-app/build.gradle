@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    compileOnly
+}
+
+dependencies {
+    compileOnly 'javax:javaee-api:8.0'
+    implementation 'javax.jms:javax.jms-api:2.0.1'
+    implementation 'javax.ejb:javax.ejb-api:3.2.2'
+}
