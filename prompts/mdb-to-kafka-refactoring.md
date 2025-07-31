@@ -293,3 +293,38 @@ public class OrderProcessor implements MessageListener {
 8. **Week 8**: Complete migration and optimization
 
 This plan leverages GitHub Copilot's agent mode capabilities to accelerate development while ensuring best practices and maintainable code quality throughout the modernization process.
+
+I'll help you create a comprehensive approach for modernizing your legacy MDB-based message processor to Kafka streaming using GitHub Copilot in agent mode. Let me generate a detailed plan with prompts and best practices.I've created a comprehensive modernization plan that leverages GitHub Copilot's agent mode capabilities. Here are the key highlights:
+
+## Strategic Approach
+The plan follows a **phased migration strategy** (8 weeks) using the Strangler Fig pattern to minimize risk while maximizing Copilot's effectiveness.
+
+## GitHub Copilot Best Practices for This Migration:
+
+### 1. **Workspace-Aware Prompts**
+- Use `@workspace` to maintain context across your legacy codebase
+- Start with analysis commands like `@workspace /explain` to understand existing MDB patterns
+
+### 2. **Iterative Development**
+- Begin with broad architectural prompts, then drill down to specific implementations
+- Use Copilot to generate boilerplate Kafka Streams code, then refine with domain-specific logic
+
+### 3. **Quality Assurance**
+- Leverage Copilot for comprehensive test generation (unit, integration, performance)
+- Use it to identify anti-patterns and suggest Kafka Streams best practices
+
+## Key Technical Decisions:
+
+1. **Kafka Streams over Kafka Consumer API** - Better for complex stream processing
+2. **Avro for Schema Evolution** - Handles message format changes gracefully  
+3. **Testcontainers for Integration Testing** - Ensures reliable testing with real Kafka
+4. **Gradual Migration Strategy** - Reduces business risk
+
+## Critical Success Factors:
+
+- **Maintain Transaction Semantics**: Convert JTA transactions to Kafka's exactly-once processing
+- **Preserve Message Ordering**: Proper partitioning strategy based on business keys
+- **Implement Proper Error Handling**: Dead letter queues and retry mechanisms
+- **Monitor Everything**: Comprehensive observability from day one
+
+The plan includes specific prompts for each phase, technology stack recommendations, and risk mitigation strategies. Would you like me to elaborate on any specific phase or create additional artifacts for particular aspects like the testing strategy or deployment procedures?
