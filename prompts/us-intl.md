@@ -1,3 +1,4 @@
+```markdown
 sequenceDiagram
     participant OC as Originating Customer
     participant OB as Originating Bank (US)
@@ -15,3 +16,4 @@ sequenceDiagram
     RB->>RB: Process and credit Beneficiary Customer account
     RB->>BC: Notify Beneficiary of funds received
     OB->>OC: Confirm payment sent and status update
+```
