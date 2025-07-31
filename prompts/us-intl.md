@@ -1,4 +1,4 @@
-```markdown
+```mermaid
 sequenceDiagram
     participant OC as Originating Customer
     participant OB as Originating Bank (US)
